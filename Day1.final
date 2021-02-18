@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+    <title>우리찾기 프로젝트</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
+        .brand-logo {
+            background-color: white;
+            text-align: left;
+            margin: 30px 10px 10px 30px;
+            width: 300px;
+        }
+
+        .nav div {
+            height: 4px;
+            background-color: grey;
+            margin: 5px 0;
+            border-radius: 25px;
+        }
+
+        .nav {
+            width: 30px;
+            display: block;
+            margin: -50px 0px 50px 100px;
+            position: absolute;
+            right: 50px;
+        }
+
+        .one {
+            width: 30px;
+        }
+
+        .two {
+            width: 30px;
+        }
+
+        .three {
+            width: 30px;
+        }
+
+        .nav:hover div {
+            width: 30px;
+        }
+
+        @import url(https://fonts.googleapis.com/css?family=Raleway:500,900);
+figure.snip1432 {
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  text-align: left;
+}
+figure.snip1432 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+figure.snip1432 img {
+  opacity: 0.8;
+  width: 100%;
+  vertical-align: top;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+figure.snip1432 figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+figure.snip1432 figcaption > div {
+  height: 50%;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+figure.snip1432 h2,
+figure.snip1432 h3 {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  padding: 0 30px;
+  text-transform: uppercase;
+}
+figure.snip1432 h2 {
+  font-weight: 900;
+  top: 0;
+}
+figure.snip1432 h3 {
+  font-size: 1em;
+  bottom: 0;
+  font-weight: 500;
+}
+figure.snip1432 h3:nth-of-type(2) {
+  opacity: 0;
+  -webkit-transform: translateY(150%);
+  transform: translateY(150%);
+}
+figure.snip1432 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+figure.snip1432:hover img,
+figure.snip1432.hover img {
+  opacity: 0.3;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+figure.snip1432:hover figcaption h3:first-of-type,
+figure.snip1432.hover figcaption h3:first-of-type {
+  -webkit-transform: translateY(150%);
+  transform: translateY(150%);
+  opacity: 0;
+}
+figure.snip1432:hover figcaption h3:nth-of-type(2),
+figure.snip1432.hover figcaption h3:nth-of-type(2) {
+  opacity: 1;
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+}
+.about-us{
+    height: 300px;
+    background-color: pink;
+    text-color: white
+}
+.video{
+    background-color: grey;
+}
+    </style>
+
+
+</head>
+<body>
+<header class="head">
+    <div class="brand-logo">
+        <img src="the sheep in a box.jpg" width="100" alt="the sheep in a box"/>
+    </div>
+    <div class="wrapper">
+        <a href="#" class="nav">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </a></div>
+</header>
+
+<div class="card-img-top">
+    <img class="card-img-top"
+         src="">
+</div>
+
+
+
+<figure class="snip1432"><img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-12-gallery1-2020?wid=2138&hei=814&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1601602934000" alt="sample45" />
+  <figcaption>
+    <div>
+      <h3>우리찾기 프로젝트</h3>
+      <h3>share, connect, enjoy your life</h3>
+    </div>
+    <div>
+      <h2>wooree project</h2>
+    </div>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+
+<div class="about-us">
+    <h1> 여기에 우리찾기 소개 글</h1>
+</div>
+<div class="video">
+    <h1> 여기 우리찾기 소개 영상</h1>
+    <p align="middle">
+        <iframe width="740" height="416" src="https://www.youtube.com/embed/Luk3wa9D4yA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+</div>
+
+<div>
+    <h1> 여기 contact info</h1>
+    <head> <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> </head>
+    <i class="fa fa-instagram fa-5x" aria-hidden="true"></i>
+</div>
+</body>
+</html>
