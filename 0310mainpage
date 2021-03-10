@@ -23,11 +23,9 @@
     <title>우리찾기 프로젝트</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
     <style>
         * {
-            font-family: 'Stylish', sans-serif;
+            font-family: 'Noto Sans KR', sans-serif;
         }
 
         .brand-logo {
@@ -257,7 +255,6 @@
             margin: 30px auto;
             border-radius: 30px;
             background-color: #f0f0f0;
-            padding: 20px;
             box-sizing: border-box;
             box-shadow: 0px 8px 33px #999;
         }
@@ -269,14 +266,7 @@
             padding-top: 50%;
         }
 
-        iframe {
-            z-index: 1;
-            top: 0;
-            left: 0;
-            position: absolute;
-            width: 100%;
-            height: 100%;
-        }
+
 
         .contents {
             max-width: 100%;
@@ -295,6 +285,26 @@
             height: auto;
         }
 
+        .btn {
+            width: 70px;
+            display: block;
+            margin: -80px 0px 50px 100px;
+            position: absolute;
+            right: 50px;
+            border: none;
+            background-color: white;
+        }
+        iframe {
+            z-index: 1;
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+
+
     </style>
 
 </head>
@@ -304,12 +314,18 @@
     <div class="brand-logo">
         <img src="/static/wooree_logo.png" width="100" alt="the sheep in a box"/>
     </div>
-    <div class="wrapper">
-        <a href="#" class="nav">
-            <div class="one"></div>
-            <div class="two"></div>
-            <div class="three"></div>
-        </a></div>
+
+<div class="dropdown">
+  <button class="btn" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <img class="btn-img" src="/static/button.png">
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item" type="button" onclick="location.href='/'">Home</button>
+    <button class="dropdown-item" type="button" onclick="location.href='about_us.html'">about us</button>
+    <button class="dropdown-item" type="button" onclick="location.href='product.html'">product</button>
+  </div>
+</div>
+
 </header>
 
 <figure class="snip1432"><img src="/static/mainpageimage.jpeg" alt="mainimage"/>
@@ -356,6 +372,10 @@
 <br>
 
 
+
+
+
+<div>
 <div class="about-us">
     <style>
     </style>
@@ -367,34 +387,10 @@
                     allowfullscreen></iframe>
         </div>
     </div>
-    <div class="nam">
-        <div class="namhee"><img src="/static/nam.png" width="110" alt="namhee">
-        </div>
-        <div class="namhee_text"> 송해나😻 "우리 찾기 프로젝트를 통해 자신 뿐 아니라<br>주변인들이 어떤 사람인지 알 수 있는 기회가 되었으면 좋겠어요! "
-        </div>
-    </div>
-    <br>
-    <div class="yejin"><img src="/static/ye.png" width="120" alt="yejin"></div>
-    <div class="yejin_text"> 지니🧞‍️🌟 관계에 있어서 가장 중요한 요소인 '대화' <br>충분한 대화로 인해 관계가 깊어지기도,
-        <br>부족한 대화로 인해 오해가 생기기도 하며, 심지어는 관계가 끝이 나기도 합니다.<br>대화카드는 단순히 오락성 게임을 넘어서 상대방과 나 자신에 대해 알아가고
-        <br>더욱 깊은 관계를 형성할 수 있는 기회를 제공합니다. <br>"우리 찾기 프로젝트를 통해 '나, 그리고 너' 더 깊은 관계인 '우리'가 될 수 있기를 바랍니다. "
-    </div>
-    <br>
-    <div class="songhee"><img src="/static/song.png" width="110" alt="songhee">
-    </div>
-    <div class="songhee_text"> 숑히🍄 "해결해야 할 바쁜 삶의 과제들로 <br> 스스로를 돌아볼 여유조차 없었진 우리들,<br>
-        우리찾기 프로젝트를 통해 잠깐이라도 내면의 소리를 들어보는 건 어떨까요?<br>
-        나와의 대화 뿐 아니라,<br>
-        가족/ 친구/ 동료들과 진솔하고 의미있는 대화를 하며 진정한 소통을 같이 해봐요!"
-    </div>
-    <br>
-    <div class="jiyoung"><img src="/static/ji.png" width="150" alt="jiyoung"></div>
-    <div class="jiyoung_text"> 여졍🌻 "우리 찾기 프로젝트를 거쳐가는 모든 분들이 <br>대화를 통해 나 자신과 더 가까워진다면 좋겠어요!"</div>
+
+    <div class="test"><img src="/static/finalfinal.png"></div>
 
 </div>
-
-
-<div>
 
 </div>
 <br>
