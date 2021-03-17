@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi"/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+    <title>우리찾기 프로젝트</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
+        .brand-logo {
+            background-color: white;
+            text-align: left;
+            margin: 30px 10px 20px 30px;
+            width: 300px;
+        }
+
+        .nav div {
+            height: 4px;
+            background-color: grey;
+            margin: 5px 0;
+            border-radius: 25px;
+        }
+
+        .nav {
+            width: 30px;
+            display: block;
+            margin: -70px 0px 50px 100px;
+            position: absolute;
+            right: 50px;
+        }
+
+        .one {
+            width: 30px;
+        }
+
+        .two {
+            width: 30px;
+        }
+
+        .three {
+            width: 30px;
+        }
+
+        .nav:hover div {
+            width: 30px;
+        }
+
+        @import url(https://fonts.googleapis.com/css?family=Raleway:500,900);
+        figure.snip1432 {
+            font-family: 'Raleway', Arial, sans-serif;
+            color: #fff;
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            background: #000000;
+            color: #ffffff;
+            text-align: left;
+        }
+
+        figure.snip1432 * {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-transition: all 0.6s ease;
+            transition: all 0.6s ease;
+        }
+
+        figure.snip1432 img {
+            opacity: 0.8;
+            width: 100%;
+            vertical-align: top;
+            -webkit-transition: opacity 0.35s;
+            transition: opacity 0.35s;
+        }
+
+        figure.snip1432 figcaption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        figure.snip1432 figcaption > div {
+            height: 50%;
+            overflow: hidden;
+            width: 100%;
+            position: relative;
+        }
+
+        figure.snip1432 h2,
+        figure.snip1432 h3 {
+            margin: 0;
+            position: absolute;
+            left: 0;
+            padding: 0 30px;
+            text-transform: uppercase;
+        }
+
+        figure.snip1432 h2 {
+            font-weight: 900;
+            top: 0;
+        }
+
+        figure.snip1432 h3 {
+            font-size: 1em;
+            bottom: 0;
+            font-weight: 500;
+        }
+
+        figure.snip1432 h3:nth-of-type(2) {
+            opacity: 0;
+            -webkit-transform: translateY(150%);
+            transform: translateY(150%);
+        }
+
+        figure.snip1432 a {
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            position: absolute;
+        }
+
+        figure.snip1432:hover img,
+        figure.snip1432.hover img {
+            opacity: 0.3;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+        }
+
+        figure.snip1432:hover figcaption h3:first-of-type,
+        figure.snip1432.hover figcaption h3:first-of-type {
+            -webkit-transform: translateY(150%);
+            transform: translateY(150%);
+            opacity: 0;
+        }
+
+        figure.snip1432:hover figcaption h3:nth-of-type(2),
+        figure.snip1432.hover figcaption h3:nth-of-type(2) {
+            opacity: 1;
+            -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+        }
+
+        .contact {
+            margin: -20px 0px 0px 0px;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .about-us {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: lavender;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+
+        .소개글 {
+            margin: -500px 0px 0px 600px;
+        }
+
+        .about-us {
+            height: auto;
+            padding-top: 30px;
+            margin-bottm: -500px;
+            max-width: 100%;
+
+        }
+
+        .namhee {
+            margin: 0px 500px 0px 500px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .namhee_text {
+            margin: -60px 0px 30px 160px;
+            padding: 0px 100px 430px 300px;
+            font-size: 0.5em;
+            text-align: center;
+        }
+
+        .yejin {
+            margin: -450px 500px 0px 500px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .yejin_text {
+            margin: -100px 0px 30px 180px;
+            padding: 0px 100px 430px 300px;
+            font-size: 0.5em;
+            text-align: center;
+        }
+
+        .songhee {
+            margin: -450px 500px 0px 500px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .songhee_text {
+            margin: -90px 0px 0px 150px;
+            padding: 0px 100px 430px 300px;
+            font-size: 0.5em;
+            text-align: center;
+        }
+
+        .jiyoung_text {
+            margin: -70px 0px 30px 100px;
+            padding: 0px 100px 100px 300px;
+            font-size: 0.5em;
+            text-align: center;
+        }
+
+        body {
+            font-size: 2vw;
+        }
+
+        p {
+            line-height: 4vw;
+        }
+
+        .jiyoung {
+            margin: -400px 500px 0px 500px;
+            max-width: 100%;
+            height: auto;
+        }
+
+
+        .video {
+            width: 100%;
+            max-width: 900px;
+            margin: 30px auto;
+            border-radius: 30px;
+            background-color: #f0f0f0;
+            box-sizing: border-box;
+            box-shadow: 0px 8px 33px #999;
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            height: auto;
+            padding-top: 50%;
+        }
+
+
+
+        .contents {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0px 0px 0px 70px;
+        }
+
+
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .btn {
+            width: 70px;
+            display: block;
+            margin: -80px 0px 50px 100px;
+            position: absolute;
+            right: 50px;
+            border: none;
+            background-color: white;
+        }
+        iframe {
+            z-index: 1;
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+<header class="head">
+    <div class="brand-logo">
+        <img src="/static/wooree_logo.png" width="100" alt="the sheep in a box"/>
+    </div>
+
+<div class="dropdown">
+  <button class="btn" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <img class="btn-img" src="/static/button.png">
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+   <button class="dropdown-item" type="button" onclick="location.href='/'">Home</button>
+    <button class="dropdown-item" type="button" onclick="location.href='about_us.html'">about us</button>
+    <button class="dropdown-item" type="button" onclick="location.href='product.html'">product</button>
+  </div>
+</div>
+
+</header>
+<br>
+
+
+
+<br>
+
+
+
+
+
+<div>
+<div class="about-us">
+    <style>
+    </style>
+
+    <div class="video">
+        <div class="video-container">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/I3CPa0xH2iI" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="test"><img src="/static/finalfinal.png"></div>
+
+</div>
+
+</div>
+<br>
+
+<div class="contact">
+    <br>
+    <h5>Contact Info</h5>
+    <p class="card-text">Email: team_wooree@naver.com</p>
+    <a href="https://www.instagram.com/wooree_official/"><img src="/static/instagram.png" width="66"/></a>
+    <a href="https://www.facebook.com/우리찾기-프로젝트-_-Wooree-103120728504471"><img src="/static/facebook.png" width="100"/></a>
+    <a href="https://blog.naver.com/team_wooree"><img src="/static/naverblog.png" width="65"/></a>
+    <p class="card-text">Copyright ⓒ2021 wooreeproject.</p>
+</div>
+
+</div>
+</body>
+
+
+
+</html>
